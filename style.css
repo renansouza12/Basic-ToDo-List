@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Chillax', sans-serif;
 }
 :root{
     --bg-color:#0f0e17;
@@ -18,12 +19,12 @@
 }
 .todo-form{
     height: 600px;
-    width: 500px;
+    width: 800px;
     background-color: var(--white);
     border-radius: 0.3rem;
 }
+.todo-form h3{}
 #new-task{
-    background: red;
     padding: 1rem 3rem;
     border-radius: 0.2rem;
     display: flex;
@@ -33,7 +34,11 @@
     width: 100%;
     height: 3.3rem;
     border: none;
-    position: relative;
+    border-radius: 0.3rem;
+    border: 1px solid var(--bg-color);
+    border-bottom: 2px solid var(--bg-color);
+    border-left: 2px solid var(--bg-color);
+    
 }
 button{
     transform: translateX(-10px);
