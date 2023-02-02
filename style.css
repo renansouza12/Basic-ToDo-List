@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:#0f0e17;
+    --text-color:#a7a9be;
+    --btn-color:#ff8906;
+    --white:#fffffe;
+    --black:#000;
+}
