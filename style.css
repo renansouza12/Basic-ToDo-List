@@ -73,3 +73,12 @@ button:hover{
     padding: 2rem 1rem;
     margin-top: 1rem;
 }
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task span{
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
