@@ -39,6 +39,7 @@
     border-bottom: 1px solid var(--black);
     padding: 1rem 3rem;
     display: flex;
+    position: relative;
 }
 .task-input{
     outline: none;
@@ -51,34 +52,46 @@
     font-size: 2rem;
     color: var(--text-color);
 }
-button{
-    transform: translateX(-10px) translateY(-5px);
+.btn-add{
     background: var(--btn-color);
     color: var(--white);
     font-weight: bold;
     border:none;
     border-radius: 0.2rem;
     padding: 1rem  2rem;
-    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: 0.3s ease-in;
+    position: relative;
 }
-button:hover{
-    transform: translateX(10px) scale(1.1);
-}
+
 #tasks{
-    border-bottom: 1px solid var(--black);
     padding: 0 1rem;
     width: 100%;
-    padding: 2rem 1rem;
     margin-top: 1rem;
+    position: relative;
 }
 .task{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    border-bottom: 1px solid var(--black);
 }
+
 .task span{
     color: var(--text-color);
     font-size: 1.2rem;
+}
+.task .delete {
+    padding: 1rem 2rem;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 0.2rem;
+    color: var(--white);
+    cursor: pointer;
+    transform: 0.3s;
+}
+.delete:hover{
+    scale:(1.1);
 }
