@@ -54,6 +54,7 @@
 }
 .btn-add{
     background: var(--btn-color);
+    margin-left: 1rem;
     color: var(--white);
     font-weight: bold;
     border:none;
@@ -82,6 +83,9 @@
 .task span{
     color: var(--text-color);
     font-size: 1.2rem;
+}
+.task #my-checkbox{
+    margin-right: 1rem;
 }
 .task .delete {
     padding: 1rem 2rem;
