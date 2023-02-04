@@ -25,13 +25,8 @@ buttonAdd.addEventListener('click',()=>{
             current_tasks[i].onclick = function(){
                 this.parentNode.remove();
             }
-        }
+        }// functio to dele tasks
+
     }
-    document.getElementById("my-checkbox").addEventListener("click", () => {
-        if(document.getElementById("my-checkbox").checked){
-            document.getElementById("task-name").style.textDecoration ="line-through";
-        }else{
-            document.getElementById("task-name").style.textDecoration ="";
-        }
-    })
+    
 })
